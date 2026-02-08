@@ -1,0 +1,5 @@
+l1=list(map(int,input().split()))
+l2=list(map(int,input().split()))
+l3=list(map(int,input().split()))
+com=list(set(l1)&set(l2)&set(l3))
+print(com)
